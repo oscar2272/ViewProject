@@ -93,62 +93,30 @@
         </div>
     </header>
     <!-- ##### Header Area End ##### -->
-
     <!-- ##### Breadcumb Area Start ##### -->
     <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg);">
         <div class="bradcumbContent">
             <p>See what’s new</p>
-            <h2>Login</h2>
+            <h2>Search</h2>
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
+	<!-- 검색결과 나왔을시 -->
 
-    <!-- ##### Login Area Start ##### -->
-    <section class="login-area section-padding-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-8">
-                    <div class="login-content">
-                        <h3>Welcome Back</h3>
-                        <!-- Login Form -->
-                        <div class="login-form">
-                            <form action="#" method="post">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">ID</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your account">
-                                    <small id="emailHelp" class="form-text text-muted"><i class="fa fa-lock mr-2"></i>We'll never share your account with anyone else.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                                <div class="ui form">
-  									<div class="inline fields">
-   										 <div class="field">
-      									 <div class="ui radio checkbox">
-      										  <input type="radio" name="fruit" checked="checked">
-     										   <label>admin</label>
-     									 </div>
-								   		 </div>
-									    <div class="field">
-									      <div class="ui radio checkbox">
-									        <input type="radio" name="fruit">
-									        <label>user</label>
-									      </div>
-									    </div>
-								  	</div>
-								  </div>
-								  
-                                <button type="submit" class="btn oneMusic-btn mt-30">Login</button>
-                            </form>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Login Area End ##### -->
+    <!-- 검색 안됐을시 -->
+<div class="ui placeholder segment">
+  <div class="ui icon header">
+    <i class="search icon"></i>
+    We don't have any documents matching your query
+  </div>
+  <div class="inline">
+    <div class="ui primary button">Clear Query</div>
+    <div class="ui button">Add Document</div>
+  </div>
+</div>
+    
+    
+    
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">

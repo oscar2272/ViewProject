@@ -77,11 +77,12 @@
                                     <!-- Login/Register -->
                                     <div class="login-register-btn mr-50">
                                         <a href="login.jsp" id="login">Login</a> / <a href="register.jsp" id="register">Register</a>
+                                        
                                     </div>
 
                                     <!-- Cart Button -->
                                     <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                        <p><span class="icon-shopping-cart"> <a href="basket.jsp"></a></span><a href="basket.jsp"> <span class="quantity">1</span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +117,7 @@
   <h4 class="ui dividing header">Shipping Information</h4>
 <div class="ui form">
     <div class="required field">
-      <label>아이디</label>
+      <label>Account</label>
       <input type="text" placeholder="Enter your account">
       
           <div class="ui pointing label">   <!--  if조건으로 value 입력없을시 사용가능한 css  -->
@@ -127,11 +128,11 @@
     </div>
   <div class="two fields">
     <div class="required field">
-     	 <label>비밀번호</label>
+     	 <label>Password</label>
      	 <input type="password">
     </div>
    	<div class="field">
-     	 <label>비밀번호 확인</label>
+     	 <label>Confirm Password</label>
      	<input type="password">
     </div>
   </div>
@@ -152,9 +153,7 @@
     	<label>Billing Address</label>
     	<input type="text" placeholder="Street Address">
   	</div>
-</div>
-
-   
+</div><br>
  <div class="ui button" tabindex="0">Sign up</div>
 </form>
                     <!-- Single -->

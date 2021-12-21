@@ -80,7 +80,7 @@
 
                                     <!-- Cart Button -->
                                     <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                        <p><span class="icon-shopping-cart"> <a href="basket.jsp"></a></span><a href="basket.jsp"> <span class="quantity">1</span></a></p>
                                     </div>
                                 </div>
                             </div>
